@@ -25,7 +25,7 @@ function About() {
       >
       <Container maxWidth="sm"  >
         <Typography
-          sx={{ fontWeight: "bold" }}
+          sx={{ fontWeight: "bold"}}
           align="center"
           variant="h4"
           color="#f3e5f5"
@@ -38,8 +38,8 @@ function About() {
           variant="h6"
           color="teal"
         >
-          I'm a full-stack software engineer currently living in Minneapolis, MN. <br />
-          I strive to merge my love of design with my coding skills to create playful yet impactful projects. <br />
+          I'm a full-stack software engineer based in Minneapolis, MN. <br />
+          I strive to merge my eye for design and coding skills to create playful yet impactful projects. <br />
           When I'm not coding, you may find me reading, strolling through a park, or playing with my cat.
         </Typography>
       </Container>

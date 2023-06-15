@@ -34,7 +34,8 @@ function Contact () {
         align="center"
         variant="h6"
         color="teal">
-                Currenly available for remote opportunies and work in Minneapolis, MN. 
+                Currenly available for remote opportunies and work in Minneapolis, MN. <br>
+                </br> Let's connect!
             </Typography>
         </Box>
         <Box>

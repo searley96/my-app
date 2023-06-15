@@ -63,6 +63,7 @@ function Navbar() {
           </Button>
           <Button
             component={Link}
+
             to="/contact"
             sx={{ my: 2, color: 'teal', display: 'block' }}
           >
