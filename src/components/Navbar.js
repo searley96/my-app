@@ -45,7 +45,7 @@ function Navbar() {
               display: { xs: 'none', md: 'flex' },
               fontWeight: 1000,
               letterSpacing: '.3rem',
-              color: 'teal',
+              color: '#00695c',
               textDecoration: 'none',
             }}
           >

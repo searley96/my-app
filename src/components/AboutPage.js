@@ -28,7 +28,8 @@ function About() {
           sx={{ fontWeight: "bold"}}
           align="center"
           variant="h4"
-          color="#f3e5f5"
+          color="#00695c
+          "
         >
           Welcome! I'm Siv.
         </Typography>
