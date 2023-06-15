@@ -1,6 +1,7 @@
 import { Typography, Box, createTheme, ThemeProvider, } from '@mui/material';
 import ContactForm from './ContactForm';
 import "@fontsource/fraunces/700.css"; // Import the Fraunces font
+import './Contact.css'; // Import the custom CSS file
 
 
 function Contact () {
@@ -17,6 +18,7 @@ function Contact () {
     return(
         <>
         <ThemeProvider theme={theme}>
+            
         <Box>
         <Typography   sx={{ fontWeight: "bold", mt: 10 }}
         align="center"

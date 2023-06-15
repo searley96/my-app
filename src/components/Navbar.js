@@ -31,7 +31,7 @@ function Navbar() {
 
   return (
      <ThemeProvider theme={theme}>
-    <AppBar position="static" sx={{ backgroundColor: 'teal' }}>
+    <AppBar position="static" sx={{ backgroundColor: 'skyblue' }} elevation={0}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -45,7 +45,7 @@ function Navbar() {
               display: { xs: 'none', md: 'flex' },
               fontWeight: 1000,
               letterSpacing: '.3rem',
-              color: 'white',
+              color: 'teal',
               textDecoration: 'none',
             }}
           >
@@ -57,14 +57,14 @@ function Navbar() {
           <Button
             component={Link}
             to="/projects"
-            sx={{ my: 2, color: 'white', display: 'block' }}
+            sx={{ my: 2, color: 'teal', display: 'block' }}
           >
             Projects
           </Button>
           <Button
             component={Link}
             to="/contact"
-            sx={{ my: 2, color: 'white', display: 'block' }}
+            sx={{ my: 2, color: 'teal', display: 'block' }}
           >
             Contact
           </Button>

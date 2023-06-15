@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
+import './Contact.css'; // Import the custom CSS file
+
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/65dbf400-0b10-11ee-8267-d3eb100789b4";
 
