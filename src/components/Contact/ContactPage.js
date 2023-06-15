@@ -1,12 +1,14 @@
 import { Typography, Box, createTheme, ThemeProvider, } from '@mui/material';
 import ContactForm from './ContactForm';
+import "@fontsource/fraunces/700.css"; // Import the Fraunces font
+
 
 function Contact () {
 
     const theme = createTheme({
         typography: {
           fontFamily: [
-            "Cormorant",
+            "Fraunces",
             "serif",
           ].join(","),
         },

@@ -10,10 +10,10 @@ const pages = [
 
 function Navbar() {
 
-      const theme = createTheme({
+    const theme = createTheme({
         typography: {
           fontFamily: [
-            "Cormorant",
+            "Fraunces",
             "serif",
           ].join(","),
         },

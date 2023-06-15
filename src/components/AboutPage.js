@@ -1,15 +1,16 @@
 import { Typography, Container, createTheme, ThemeProvider } from "@mui/material";
-import "typeface-cormorant";
+import "@fontsource/fraunces/700.css"; // Import the Fraunces font
+
 
 function About() {
-  const theme = createTheme({
-    typography: {
-      fontFamily: [
-        "Cormorant",
-        "serif",
-      ].join(","),
-    },
-  });
+    const theme = createTheme({
+        typography: {
+          fontFamily: [
+            "Fraunces",
+            "serif",
+          ].join(","),
+        },
+      });
 
   return (
     <ThemeProvider theme={theme}>
