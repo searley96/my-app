@@ -23,7 +23,7 @@ function Contact () {
         <Typography   sx={{ fontWeight: "bold", mt: 10 }}
         align="center"
         variant="h4"
-        color="teal"
+        color="#00695c"
 
       >
             Contact

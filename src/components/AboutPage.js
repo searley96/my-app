@@ -1,5 +1,6 @@
 import { Typography, Container, createTheme, ThemeProvider } from "@mui/material";
 import "@fontsource/fraunces/700.css"; // Import the Fraunces font
+// import Spiral from "./Spiral";
 
 
 function About() {
@@ -13,6 +14,8 @@ function About() {
       });
 
   return (
+    <>
+   
     <ThemeProvider theme={theme} >
          <div
         style={{
@@ -23,6 +26,7 @@ function About() {
           alignItems: "center",
         }}
       >
+         {/* <Spiral/> */}
       <Container maxWidth="sm"  >
         <Typography
           sx={{ fontWeight: "bold"}}
@@ -46,6 +50,7 @@ function About() {
       </Container>
       </div>
     </ThemeProvider>
+    </>
   );
 }
 

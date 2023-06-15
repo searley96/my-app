@@ -5,9 +5,11 @@ import Contact from "./components/Contact/ContactPage";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects/ProjectsPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
+    <>
     <main>
       <Router>
         <div>
@@ -17,9 +19,13 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <Footer/>
         </div>
       </Router>
+     
     </main>
+    
+    </>
   );
 }
 

@@ -7,7 +7,6 @@ import {
   CardActionArea,
   createTheme,
   ThemeProvider,
-  Grid,
   Box,
 } from "@mui/material";
 import "@fontsource/fraunces/700.css"; // Import the Fraunces font
@@ -25,7 +24,7 @@ function Projects() {
         sx={{ fontWeight: "bold", mt: 10 }}
         align="center"
         variant="h4"
-        color="teal"
+        color="#00695c"
       >
         Projects
       </Typography>
