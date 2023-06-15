@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import About from "./components/AboutPage";
+import Contact from "./components/Contact/ContactPage";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import Projects from "./components/ProjectsPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

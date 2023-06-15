@@ -1,17 +1,9 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
 
 const pages = [
@@ -46,7 +38,7 @@ function Navbar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'black',
+              color: 'teal',
               textDecoration: 'none',
             }}
           >
@@ -58,14 +50,14 @@ function Navbar() {
           <Button
             component={Link}
             to="/projects"
-            sx={{ my: 2, color: 'black', display: 'block' }}
+            sx={{ my: 2, color: 'teal', display: 'block' }}
           >
             Projects
           </Button>
           <Button
             component={Link}
             to="/contact"
-            sx={{ my: 2, color: 'black', display: 'block' }}
+            sx={{ my: 2, color: 'teal', display: 'block' }}
           >
             Contact
           </Button>
