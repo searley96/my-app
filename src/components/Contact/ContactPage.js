@@ -1,9 +1,20 @@
-import { Typography, Box } from '@mui/material';
+import { Typography, Box, createTheme, ThemeProvider, } from '@mui/material';
 import ContactForm from './ContactForm';
 
 function Contact () {
+
+    const theme = createTheme({
+        typography: {
+          fontFamily: [
+            "Cormorant",
+            "serif",
+          ].join(","),
+        },
+      });
+
     return(
         <>
+        <ThemeProvider theme={theme}>
         <Box>
         <Typography   sx={{ fontWeight: "bold", mt: 10 }}
         align="center"
@@ -18,19 +29,20 @@ function Contact () {
             <Typography sx={{ mt: 6 }}
         align="center"
         variant="h6"
-        color="black">
-                Currenly open for work and accepting projects in Minneapolis, MN and remotely. 
+        color="teal">
+                Currenly available for remote opportunies and work in Minneapolis, MN. 
             </Typography>
         </Box>
         <Box>
             <Typography sx={{ mt: 6 }}
         align="center"
         variant="h6"
-        color="black">
+        color="teal">
             
             </Typography>
         </Box>
         <ContactForm />
+        </ThemeProvider>
         </>
     )
 }
