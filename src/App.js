@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import About from "./components/AboutPage";
+import About from "./components/About/AboutPage";
 import Contact from "./components/Contact/ContactPage";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects/ProjectsPage";

@@ -8,6 +8,7 @@ import './Footer.css';
 
 function Footer() {
   return <footer>
+    
             <div>&copy; Siv Earley LLC </div>
          </footer>;
 }

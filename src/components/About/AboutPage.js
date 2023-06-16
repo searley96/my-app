@@ -1,5 +1,6 @@
 import { Typography, Container, createTheme, ThemeProvider } from "@mui/material";
 import "@fontsource/fraunces/700.css"; // Import the Fraunces font
+import AboutAccordian from "./AboutAccordian";
 // import Spiral from "./Spiral";
 
 
@@ -48,7 +49,9 @@ function About() {
           When I'm not coding, you may find me reading, strolling through a park, or playing with my cat.
         </Typography>
       </Container>
+    
       </div>
+      <AboutAccordian/>
     </ThemeProvider>
     </>
   );
