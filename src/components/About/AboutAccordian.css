@@ -23,7 +23,7 @@
   .accordion {
     max-width: 600px;
     margin: 2rem auto;
-    margin-top: -150px;
+    margin-top: 45px;
    
   }
   
@@ -36,7 +36,7 @@
   }
   
   .accordion-title:hover {
-    background-color: teal;
+    background-color: lightblue;
   }
   
   .accordion-title,

@@ -1,7 +1,8 @@
 import { Typography, Container, createTheme, ThemeProvider } from "@mui/material";
 import "@fontsource/fraunces/700.css"; // Import the Fraunces font
 import AboutAccordian from "./AboutAccordian";
-// import Spiral from "./Spiral";
+import './AboutPage.css'; // Import the custom CSS file
+
 
 
 function About() {
@@ -21,13 +22,12 @@ function About() {
          <div
         style={{
           backgroundColor: "skyblue", // background color
-          minHeight: "100vh",
+          minHeight: "50vh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
         }}
       >
-         {/* <Spiral/> */}
       <Container maxWidth="sm"  >
         <Typography
           sx={{ fontWeight: "bold"}}
@@ -43,6 +43,7 @@ function About() {
           align="center"
           variant="h6"
           color="teal"
+          
         >
           I'm a full-stack software engineer based in Minneapolis, MN. <br />
           I strive to merge my eye for design and coding skills to create playful yet impactful projects. <br />
