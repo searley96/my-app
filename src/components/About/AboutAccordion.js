@@ -1,4 +1,4 @@
-import "./AboutAccordian.css";
+import "./AboutAccordion.css";
 import React, { useState } from 'react';
 import "@fontsource/fraunces/700.css"; // Import the Fraunces font
 import { Typography, Container, createTheme, ThemeProvider } from "@mui/material";
@@ -100,13 +100,13 @@ function AboutAccordian() {
       className={`accordion-title ${activeIndex === index ? 'active' : ''}`}
       onClick={() => handleAccordionClick(index)}
     >
-      <Typography variant="h4" component="div" color="whitesmoke">
+      <Typography variant="h4" component="div" color="rgb(197, 75, 53)">
         {accordionItem.title}
       </Typography>
     </div>
     {activeIndex === index && (
   <div className="accordion-content">
-    <Typography variant="body1" component="div" color="lightblue">
+    <Typography variant="body1" component="div" color="rgb(197, 75, 53)">
       {accordionItem.content.map((paragraph, index) => (
         <React.Fragment key={index}>
           <p>{paragraph}</p>

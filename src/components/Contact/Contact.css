@@ -1,6 +1,9 @@
 body {
-    background-color: skyblue; /* Replace with your desired background color */
+    background-color: rgb(252, 220, 215);
+    /* Replace with your desired background color */
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Prevent horizontal scrolling */
   }
+
+  /* background-color: rgb(241, 220, 215); */

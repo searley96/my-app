@@ -1,80 +1,101 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import { Typography, Container, createTheme,  ThemeProvider, Button, Toolbar, AppBar } from "@mui/material";
-
-
-const pages = [
-  { label: 'Projects', path: '/projects' },
-  { label: 'Contact', path: '/contact' },
-];
+import {
+  Typography,
+  Container,
+  createTheme,
+  ThemeProvider,
+  Button,
+  Toolbar,
+  AppBar,
+} from '@mui/material';
 
 function Navbar() {
-
-    const theme = createTheme({
-        typography: {
-          fontFamily: [
-            "Fraunces",
-            "serif",
-          ].join(","),
-        },
-      });
-
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
+  // Create a custom theme
+  const theme = createTheme({
+    typography: {
+      fontFamily: ['Fraunces', 'serif'].join(','),
+    },
+  });
 
   return (
-     <ThemeProvider theme={theme}>
-    <AppBar position="static" sx={{ backgroundColor: 'skyblue' }} elevation={0}>
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
-          <Typography
-            variant="h6"
-            noWrap
-            component={Link}
-            to="/"
+    <ThemeProvider theme={theme}>
+      <AppBar
+        position="static" // Set the position of the AppBar
+        sx={{
+          backgroundImage: 'linear-gradient(to bottom, rgb(252, 89, 60), rgb(252, 164, 148), rgb(252, 220, 215))', // Set the background image gradient
+          boxShadow: 'none', // Remove the box shadow
+        }}
+        elevation={0} // Set the elevation of the AppBar
+      >
+        <Container maxWidth="xl">
+          <Toolbar
+            disableGutters // Disable the default gutters for the Toolbar
             sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontWeight: 1000,
-              letterSpacing: '.3rem',
-              color: '#00695c',
-              textDecoration: 'none',
+              alignItems: 'center', // Align the items in the Toolbar to the center
             }}
           >
-            Siv Earley
-          </Typography>
+            {/* Typography component for the logo */}
+            <Typography
+              variant="h6"
+              noWrap
+              component={Link}
+              to="/"
+              sx={{
+                mt: 2, // Set the margin-top of the Typography component
+                mr: 2, // Set the margin-right of the Typography component
+                display: { xs: 'none', md: 'flex' }, // Set the display property for different screen sizes
+                fontWeight: 1000, // Set the font weight of the Typography component
+                letterSpacing: '.3rem', // Set the letter spacing of the Typography component
+                color: 'rgb(252, 164, 148)', // Set the color of the Typography component
+                textDecoration: 'none', // Set the text decoration of the Typography component
+              }}
+            >
+              Siv Earley
+            </Typography>
 
-          <div style={{ flex: 1 }}></div>
+            <div style={{ flex: 1 }}></div> {/* Empty div to push the buttons to the right side of the Toolbar */}
 
-          <Button
-            component={Link}
-            to="/projects"
-            sx={{ my: 2, color: 'teal', display: 'block' }}
-          >
-            Projects
-          </Button>
-          <Button
-            component={Link}
+            {/* Button component for "Projects" */}
+            <Button
+              component={Link}
+              to="/projects"
+              sx={{
+                mt: 2, // Set the margin-top of the button
+                mx: 1, // Set the margin-left and margin-right of the button
+                color: 'rgb(252, 220, 215)', // Set the color of the button
+                display: 'block', // Set the display property of the button
+                '&:hover': {
+                  color: 'white', // Set the color on hover for the button
+                },
+              }}
+            >
+              Projects
+            </Button>
 
-            to="/contact"
-            sx={{ my: 2, color: 'teal', display: 'block' }}
-          >
-            Contact
-          </Button>
-        </Toolbar>
-      </Container>
-    </AppBar>
+            {/* Button component for "Contact" */}
+            <Button
+              component={Link}
+              to="/contact"
+              sx={{
+                mt: 2, // Set the margin-top of the button
+                mx: 1, // Set the margin-left and margin-right of the button
+                color: 'rgb(252, 164, 148)', // Set the color of the button
+                display: 'block', // Set the display property of the button
+                '&:hover': {
+                  color: 'white', // Set the color on hover for the button
+                },
+              }}
+            >
+              Contact
+            </Button>
+          </Toolbar>
+        </Container>
+      </AppBar>
     </ThemeProvider>
   );
 }
 
 export default Navbar;
+
 

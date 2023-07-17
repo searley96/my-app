@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: whitesmoke;
+}
+
+  body { 
+    background-color: rgb(255, 216, 209);
+
+  } 
+
+h1 {
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.accordion {
+  max-width: 400px;
+  margin: 2rem auto;
+  margin-top: 35px;
+  /* border: 10px solid lightblue; */
+  margin-bottom: 50px;
+  padding: 25px;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  /* background-color: teal;
+  border: 10px solid lightblue; */
+}
+
+.accordion-title:hover {
+  background-color: rgb(255, 216, 209);
+  ;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  background-color: rgb(255, 216, 209);
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+}
