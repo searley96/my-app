@@ -23,7 +23,7 @@ function About() {
       <ThemeProvider theme={theme}>
         <div
           style={{
-            marginTop: "75px", // Adjust the marginTop to move both divs down
+            marginTop: "50px", // Adjust the marginTop to move both divs down
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -40,22 +40,26 @@ function About() {
           >
             Welcome! I'm Siv.
           </Typography>
-          <div className="flowerImages">
+          <div className="flowerImages"
+           style={{
+            marginTop: "45px", // Adjust the marginTop to move both divs down
+            display: "flex"
+          }}>
           <img
             src="../images/greenflower.png"
-            alt="image"
+            alt="greenFlower"
             width="200px"
             height="200px"
           />
            <img
             src="../images/orangeflower.png"
-            alt="image"
+            alt="orangeFlower"
             width="200px"
             height="200px"
           />
            <img
             src="../images/greenflower.png"
-            alt="image"
+            alt="greenFlower"
             width="200px"
             height="200px"
           />
@@ -73,7 +77,7 @@ function About() {
                 <Typography
                   sx={{
                     fontWeight: "bold",
-                    paddingTop: "75px",
+                    paddingTop: "90px",
                     marginTop: 0,
                   }}
                   align="left"
