@@ -4,6 +4,9 @@ I wanted to create my own website to showcase past projects and my current skill
 
 This project was created mainly with JavaScript, MUI, CSS, and HTML and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Photos 
+<img width="1441" alt="Screenshot 2023-07-18 at 3 55 27 PM" src="https://github.com/searley96/my-app/assets/119346063/df8bdcf7-b2ba-4caf-97fb-b30c47829ff2">
+
 ## Instructions
 
 Fork this project and open it in your code editer of choice (I used VS Code).
