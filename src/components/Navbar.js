@@ -66,6 +66,7 @@ function Navbar() {
               to="/projects"
               sx={{
                 border: 2,
+                borderColor: "#F05A28",
                 mt: 2, // Set the margin-top of the button
                 mx: 1, // Set the margin-left and margin-right of the button
                 color: "#f2ffb2", // Set the color of the button
@@ -83,6 +84,7 @@ function Navbar() {
               to="/contact"
               sx={{
                 border: 2,
+                borderColor: "#F05A28",
                 mt: 2, // Set the margin-top of the button
                 mx: 1, // Set the margin-left and margin-right of the button
                 color: "#f2ffb2", // Set the color of the button

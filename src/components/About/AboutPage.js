@@ -40,29 +40,33 @@ function About() {
           >
             Welcome! I'm Siv.
           </Typography>
-          <div className="flowerImages"
-           style={{
-            marginTop: "45px", // Adjust the marginTop to move both divs down
-            display: "flex"
-          }}>
-          <img
-            src="../images/greenflower.png"
-            alt="greenFlower"
-            width="200px"
-            height="200px"
-          />
-           <img
-            src="../images/orangeflower.png"
-            alt="orangeFlower"
-            width="200px"
-            height="200px"
-          />
-           <img
-            src="../images/greenflower.png"
-            alt="greenFlower"
-            width="200px"
-            height="200px"
-          />
+          <div
+            className="flowerImages"
+            style={{
+              marginTop: "45px", // Adjust the marginTop to move both divs down
+              display: "flex",
+            }}
+          >
+            <img
+              src="../images/greenflower.png"
+              alt="greenFlower"
+              width="200px"
+              height="200px"
+            />
+            <img
+              src="../images/orangeflower.png"
+              alt="orangeFlower"
+              width="200px"
+              height="200px"
+            />
+
+            <img
+              className="greenFlower"
+              src="../images/greenflower.png"
+              alt="greenFlower"
+              width="200px"
+              height="200px"
+            />
           </div>
           <div
             style={{
@@ -85,13 +89,11 @@ function About() {
                   color="
                   #EBA937"
                 >
-                  I'm a full-stack software engineer based in Minneapolis, MN.
-                  <br />
-                  I strive to merge my eye for design and coding skills to
-                  create playful yet impactful projects.
-                  <br />
-                  When I'm not coding, you may find me reading, strolling
-                  through a park, or playing with my cat.
+                  I'm a full-stack software engineer based in Minneapolis, MN. I
+                  strive to merge my eye for design and coding skills to create
+                  playful yet impactful projects. When I'm not coding, you may
+                  find me reading, strolling through a park, or playing with my
+                  cat.
                 </Typography>
               </Container>
             </div>
