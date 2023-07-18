@@ -14,7 +14,7 @@ function AboutAccordian() {
   });
   const accordionData = [
     {
-      title: 'Work Experience',
+      title: 'Work',
       content: [
         `Full-Stack Software Developer Student - Prime Digital Academy`,
         `Jan 2023 - June 2023`,
@@ -100,13 +100,13 @@ function AboutAccordian() {
       className={`accordion-title ${activeIndex === index ? 'active' : ''}`}
       onClick={() => handleAccordionClick(index)}
     >
-      <Typography variant="h4" component="div" color="rgb(197, 75, 53)">
+      <Typography variant="h4" component="div" color="#EBA937">
         {accordionItem.title}
       </Typography>
     </div>
     {activeIndex === index && (
   <div className="accordion-content">
-    <Typography variant="body1" component="div" color="rgb(197, 75, 53)">
+    <Typography variant="body1" component="div" color="#F2E1D8">
       {accordionItem.content.map((paragraph, index) => (
         <React.Fragment key={index}>
           <p>{paragraph}</p>

@@ -23,7 +23,7 @@ function Navbar() {
       <AppBar
         position="static" // Set the position of the AppBar
         sx={{
-          backgroundImage: 'linear-gradient(to bottom, rgb(252, 89, 60), rgb(252, 164, 148), rgb(252, 220, 215))', // Set the background image gradient
+          backgroundColor: '#027353', // Set the background color
           boxShadow: 'none', // Remove the box shadow
         }}
         elevation={0} // Set the elevation of the AppBar
@@ -47,8 +47,12 @@ function Navbar() {
                 display: { xs: 'none', md: 'flex' }, // Set the display property for different screen sizes
                 fontWeight: 1000, // Set the font weight of the Typography component
                 letterSpacing: '.3rem', // Set the letter spacing of the Typography component
-                color: 'rgb(252, 164, 148)', // Set the color of the Typography component
+                color: '#f2ffb2', // Set the color of the Typography component
                 textDecoration: 'none', // Set the text decoration of the Typography component
+                display: 'block', // Set the display property of the button
+                '&:hover': {
+                  color: '#EBA937', // Set the color on hover for the button
+                },
               }}
             >
               Siv Earley
@@ -63,10 +67,10 @@ function Navbar() {
               sx={{
                 mt: 2, // Set the margin-top of the button
                 mx: 1, // Set the margin-left and margin-right of the button
-                color: 'rgb(252, 220, 215)', // Set the color of the button
+                color: '#f2ffb2', // Set the color of the button
                 display: 'block', // Set the display property of the button
                 '&:hover': {
-                  color: 'white', // Set the color on hover for the button
+                  color: '#EBA937', // Set the color on hover for the button
                 },
               }}
             >
@@ -80,10 +84,10 @@ function Navbar() {
               sx={{
                 mt: 2, // Set the margin-top of the button
                 mx: 1, // Set the margin-left and margin-right of the button
-                color: 'rgb(252, 164, 148)', // Set the color of the button
+                color: '#f2ffb2', // Set the color of the button
                 display: 'block', // Set the display property of the button
                 '&:hover': {
-                  color: 'white', // Set the color on hover for the button
+                  color: '#EBA937', // Set the color on hover for the button
                 },
               }}
             >
