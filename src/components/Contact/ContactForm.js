@@ -40,7 +40,7 @@ const ContactForm = () => {
           <div className="mb-3 pt-0">
             <input
               type="text"
-              placeholder="Your name"
+              placeholder="Name"
               name="name"
               className="px-2 py-2 placeholder-gray-400 text-gray-600 relative bg-white rounded text-xs border-0 shadow outline-none focus:outline-none focus:ring w-full"
               required
@@ -57,15 +57,15 @@ const ContactForm = () => {
           </div>
           <div className="mb-3 pt-0">
             <textarea
-              placeholder="Your message"
+              placeholder="Message"
               name="message"
               className="px-2 py-2 placeholder-gray-400 text-gray-600 relative bg-white rounded text-xs border-0 shadow outline-none focus:outline-none focus:ring w-full"
               required
             />
           </div>
-          <div className="mb-3 pt-0">
+           <div className="mb-3 pt-0 flex justify-center">
             <button
-              className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+              className="bg-green-500 text-white active:bg-green-500 font-bold uppercase text-xs px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
               type="submit"
             >
               Send

@@ -22,8 +22,8 @@ function Contact () {
         <Box>
         <Typography   sx={{ fontWeight: "bold", mt: 10 }}
         align="center"
-        variant="h4"
-        color="#00695c"
+        variant="h2"
+        color="#F05A28"
 
       >
             Contact
@@ -33,7 +33,7 @@ function Contact () {
             <Typography sx={{ mt: 6 }}
         align="center"
         variant="h6"
-        color="teal">
+        color="#EBA937">
                 Currenly available for remote opportunies and work in the Twin Cities, MN. <br>
                 </br> Let's connect!
             </Typography>

@@ -6,4 +6,12 @@ body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
   }
 
-  /* background-color: rgb(241, 220, 215); */
+
+  /* h2 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #f2ffb2;
+    text-underline-offset: 25px;
+   
+    
+  } */
