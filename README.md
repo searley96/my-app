@@ -8,6 +8,7 @@ This project was created mainly with JavaScript, MUI, CSS, and HTML and was boot
 
 <img width="1434" alt="Screenshot 2023-07-18 at 5 37 17 PM" src="https://github.com/searley96/my-app/assets/119346063/730b682a-0764-4e5c-b756-b98863d2d713">
 
+<img width="1410" alt="Screenshot 2023-07-21 at 10 55 43 AM" src="https://github.com/searley96/my-app/assets/119346063/c52020f1-75e3-4a5d-9984-46994908f9d8">
 
 ## Instructions
 
