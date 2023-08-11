@@ -46,7 +46,17 @@ function Contact () {
             
             </Typography>
         </Box>
+        
+        <img
+        
+              src="../images/siv.jpg"
+              alt="Siv"
+              width="200px"
+              height="200px"
+
+            />
         <ContactForm />
+        
         </ThemeProvider>
         </>
     )

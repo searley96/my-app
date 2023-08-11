@@ -14,6 +14,7 @@ function AboutAccordian() {
       fontFamily: ["Fraunces", "serif"].join(","),
     },
   });
+
   const accordionData = [
     {
       title: "Work",
@@ -94,9 +95,11 @@ function AboutAccordian() {
   return (
     <ThemeProvider theme={theme}>
       <Container>
+        {/* Accordion */}
         <div className="accordion">
           {accordionData.map((accordionItem, index) => (
             <div className="accordion-item" key={index}>
+              {/* Accordion title */}
               <div
                 className={`accordion-title ${
                   activeIndex === index ? "active" : ""
@@ -107,6 +110,7 @@ function AboutAccordian() {
                   {accordionItem.title}
                 </Typography>
               </div>
+              {/* Accordion content */}
               {activeIndex === index && (
                 <div className="accordion-content">
                   <Typography variant="body1" component="div" color="#EBA937">

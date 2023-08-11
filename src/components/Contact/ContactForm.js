@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import './Contact.css'; // Import the custom CSS file
+import './ContactForm.css'; // Import the custom CSS file
 
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/65dbf400-0b10-11ee-8267-d3eb100789b4";
@@ -34,8 +34,11 @@ const ContactForm = () => {
   }
 
   return (
+
     <div className="flex justify-center">
       <div className="max-w-sm w-full p-4">
+      
+            
         <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
           <div className="mb-3 pt-0">
             <input
@@ -70,6 +73,7 @@ const ContactForm = () => {
             >
               Send
             </button>
+            
           </div>
         </form>
       </div>

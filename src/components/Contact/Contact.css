@@ -1,17 +1,9 @@
 body {
-    background-color:#027353;
-    /* Replace with your desired background color */
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-  }
+  background-color:#027353;
 
+}
 
-  /* h2 {
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-color: #f2ffb2;
-    text-underline-offset: 25px;
-   
-    
-  } */
+#contactForm {
+  display: flex;
+  flex-direction: row;
+}
