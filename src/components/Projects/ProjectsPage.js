@@ -24,7 +24,7 @@ function Projects() {
         sx={{ fontWeight: "bold", mt: 10 }}
         align="center"
         variant="h4"
-        color="#00695c"
+        color="#F05A28"
       >
         Projects
       </Typography>
@@ -32,9 +32,9 @@ function Projects() {
         sx={{ fontWeight: "bold", mt: 2 }}
         align="center"
         variant="h6"
-        color="teal"
+        color="#f2ffb2"
       >
-        Click on the image to explore my work further on GitHub!
+        Click on the image to explore my work on GitHub!
       </Typography>
       <Box
         sx={{
@@ -52,7 +52,7 @@ function Projects() {
             flexDirection: "column",
             justifyContent: "space-between",
             mt: 2,
-            color: "teal",
+            color: "#F05A28",
           }}
         >
           <CardActionArea
@@ -71,7 +71,7 @@ function Projects() {
               <Typography variant="h5" component="div">
                 M.A.S.H. Future Fortunes
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" >
                 A digital adaptation of the classic childhood game, M.A.S.H.
               </Typography>
             </CardContent>
@@ -86,7 +86,7 @@ function Projects() {
             flexDirection: "column",
             justifyContent: "space-between",
             mt: 4,
-            color: "teal",
+            color: "#F05A28",
           }}
         >
           <CardActionArea
@@ -139,7 +139,7 @@ function Projects() {
               <Typography variant="h5" component="div">
                 Movies Saga
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" >
                 Displays a gallery of movie images on the home page and movie details when an individual movie is clicked.
               </Typography>
             </CardContent>
@@ -154,7 +154,7 @@ function Projects() {
             flexDirection: "column",
             justifyContent: "space-between",
             mt: 4,
-            color: "teal",
+            color: "",
             mb: 10
           }}
         >

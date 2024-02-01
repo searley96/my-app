@@ -1,5 +1,4 @@
 import * as React from "react";
-// import { Link } from "react-router-dom";
 import {
   Typography,
   Container,
@@ -8,7 +7,6 @@ import {
 } from "@mui/material";
 import "@fontsource/fraunces/700.css"; // Import the Fraunces font
 import AboutAccordion from "./AboutAccordion";
-import "./AboutPage.css"; // Import the custom CSS file
 import "../../lato.css";
 
 function About() {
@@ -21,9 +19,15 @@ function About() {
   return (
     <>
       <ThemeProvider theme={theme}>
+        <img
+          src="../images/orangeflower.png"
+          alt="orangeFlower"
+          width="200px"
+          height="200px"
+        />
         <div
           style={{
-            marginTop: "50px", // Adjust the marginTop to move both divs down
+            marginTop: "10px", // Adjust the marginTop to move both divs down
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -40,34 +44,7 @@ function About() {
           >
             Welcome! I'm Siv.
           </Typography>
-          <div
-            className="flowerImages"
-            style={{
-              marginTop: "45px", // Adjust the marginTop to move both divs down
-              display: "flex",
-            }}
-          >
-            <img
-              src="../images/greenflower.png"
-              alt="greenFlower"
-              width="200px"
-              height="200px"
-            />
-            <img
-              src="../images/orangeflower.png"
-              alt="orangeFlower"
-              width="200px"
-              height="200px"
-            />
-
-            <img
-              className="greenFlower"
-              src="../images/greenflower.png"
-              alt="greenFlower"
-              width="200px"
-              height="200px"
-            />
-          </div>
+         
           <div
             style={{
               display: "flex",
@@ -103,6 +80,12 @@ function About() {
             </div>
           </div>
         </div>
+        <img
+              src="../images/greenflower.png"
+              alt="greenFlower"
+              width="200px"
+              height="200px"
+            />
       </ThemeProvider>
     </>
   );

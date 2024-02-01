@@ -1,9 +1,4 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border-color: whitesmoke;
-} */
+
 
   body { 
     background-color: #FCEDDA;
@@ -19,7 +14,7 @@ h1 {
   max-width: 400px;
   margin: 2rem auto;
   margin-top: 50px;
-  border-left: 2px solid #F05A28;
+  border-left: 2px solid #f2ffb2;
   margin-bottom: 50px;
   padding: 25px;
   margin-left: -35px;
